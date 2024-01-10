@@ -7,9 +7,13 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   font-family: "Work Sans", sans-serif;
-  font-size: 16px;
+  font-size: 1.6rem;
 }
 
 img {
@@ -49,17 +53,17 @@ body {
 }
 
 h2 {
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: var(--fontweight-semibold);
   padding-right: 45px;
 }
 
 p {
-  font-size: 15px;
+  font-size: 1.5rem;
 }
 
 img {
-  max-width: 30px;
+  max-width: 3rem;
   height: auto;
 }
 
@@ -109,7 +113,7 @@ img {
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: 1.1rem;
   text-align: center;
   padding-top: 10px;
 }
